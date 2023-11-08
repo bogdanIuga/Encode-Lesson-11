@@ -9,5 +9,6 @@ contract MyNFT is ERC721 {
 
     constructor() ERC721("MyNFT", "MNF") {
         // _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
+        // _grantRole(MINTER_ROLE, msg.sender);
     }
 }
